@@ -6,22 +6,17 @@
 | - [**Snowflake Data Engineer**](#snowflake-data-engineer)<br>- [Databricks Data Engineer](#master-data-checklist-data-engineer)  | [**Biggest bottlenecks**](#what-were-the-biggest-bottlenecks-in-the-original-onboarding-process)  | [Challenges - Cost Reduction](#what-challenges-did-you-face-when-implementing-this-cost-reduction) | [challenges](#what-challenges-did-you-face-when-implementing-this-reporting-latency-reduction)
 | - [Data Engineering Manager](#data-engineering-manager) |[**Onboarding demand increases 10x - framework still hold?**](#what-happens-if-onboarding-demand-increases-10x-does-your-framework-still-hold)
  
-- [**Architecture & Data Platform Design**](#architecture--data-platform-design)
 
-  - [**End-to-End Databricks Lakehouse Modernization**](#end-to-end-databricks-lakehouse-modernization)
-    - [**Greenfield Databricks Lakehouse Implementation**](#greenfield-databricks-lakehouse-implementation)
-  - [**Medallion architecture (Bronze, Silver, Gold)**](#explain-your-approach-to-implementing-the-medallion-architecture-bronze-silver-gold)
-  - [**Data Vault 2.0 vs dimensional modeling**](#how-do-you-decide-between-data-vault-20-vs-dimensional-modeling-for-a-use-case)
-  - [**multi-tenant data platform**](#how-would-you-design-a-multi-tenant-data-platform-with-governance-and-scalability-in-mind)
+|[**Architecture & Data Platform Design**](#architecture--data-platform-design) | [**Oracle → Databricks Migration**](#oracle--databricks-migration)|
+|:---|:---|
+| [**End-to-End Databricks Lakehouse Modernization**](#end-to-end-databricks-lakehouse-modernization)                            |[**Experience migrating from Oracle to Databricks**.](#walk-me-through-your-experience-migrating-from-oracle-to-databricks)
+| [**Greenfield Databricks Lakehouse Implementation**](#greenfield-databricks-lakehouse-implementation)                          |[Convert **PL/SQL logic into PySpark or Spark SQL**?](#how-do-you-convert-plsql-logic-into-pyspark-or-spark-sql)
+| [**Medallion architecture (Bronze, Silver,                                                                                 Gold)**](#explain-your-approach-to-implementing-the-medallion-architecture-bronze-silver-gold) |[What challenges do you face when migrating **complex stored procedures**?](#what-challenges-do-you-face-when-migrating-complex-stored-procedures)|
+| [**Data Vault 2.0 vs dimensional modeling**](#how-do-you-decide-between-data-vault-20-vs-dimensional-modeling-for-a-use-case)  |[**validate data consistency between Oracle and Databricks**?](#how-do-you-validate-data-consistency-between-oracle-and-databricks)
+| [**multi-tenant data platform**](#how-would-you-design-a-multi-tenant-data-platform-with-governance-and-scalability-in-mind)   |[Strategy for **minimizing downtime during migration**?](#what-is-your-strategy-for-minimizing-downtime-during-migration)
 
-- [**Oracle → Databricks Migration**](#oracle--databricks-migration)
-
-  - [**Experience migrating from Oracle to Databricks**.](#walk-me-through-your-experience-migrating-from-oracle-to-databricks)
-  - [Convert **PL/SQL logic into PySpark or Spark SQL**?](#how-do-you-convert-plsql-logic-into-pyspark-or-spark-sql)
-  - [What challenges do you face when migrating **complex stored procedures**?](#what-challenges-do-you-face-when-migrating-complex-stored-procedures)
-  - [**validate data consistency between Oracle and Databricks**?](#how-do-you-validate-data-consistency-between-oracle-and-databricks)
-  - [Strategy for **minimizing downtime during migration**?](#what-is-your-strategy-for-minimizing-downtime-during-migration)
-  - [Modernize **ODI pipelines** into Databricks-native workflows?](#how-do-you-modernize-odi-pipelines-into-databricks-native-workflows)
+- [Modernize **ODI pipelines** into Databricks-native workflows?](#how-do-you-modernize-odi-pipelines-into-databricks-native-workflows)
+ 
 
 - [**How I Improved Databricks Pipeline Performance by ~40% at DXC Technologies**](#how-i-improved-databricks-pipeline-performance-by-40-at-dxc-technologies)
 
