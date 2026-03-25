@@ -1,23 +1,16 @@
 # [Oracle → Databricks Migration](#oracle--databricks-migration)
 
-| [**Data Migration & ETL**](#data-migration--etl)| [**Performance & Optimization**](#performance--optimization)|
-|:---|:---|
-| [**Design a robust migration plan from Oracle to Delta Lake**](#how-do-you-design-a-robust-migration-plan-from-oracle-to-delta-lake-for-multi-terabyte-datasets)| [How do you partition and cluster Delta tables for large-scale performance optimization?](#how-do-you-partition-and-cluster-delta-tables-for-large-scale-performance-optimization)|
-| [Map Oracle data types to Delta/Spark types](#how-do-you-map-oracle-data-types-to-deltaspark-types-while-handling-edge-cases) | [**Optimize legacy Oracle SQL queries for Spark and Delta Lake**?](#how-do-you-optimize-legacy-oracle-sql-queries-for-spark-and-delta-lake)|
-| [**Migrate complex PL/SQL logic into PySpark or SQL transformations**](#how-do-you-migrate-and-refactor-complex-plsql-logic-into-pyspark-or-sql-transformations) | [How do you benchmark migration workloads, including ETL and analytics, to compare Oracle vs Spark?](#how-do-you-benchmark-migration-workloads-including-etl-and-analytics-to-compare-oracle-vs-spark)|
-| [Handle stored procedures, triggers, and views during migration](#how-do-you-handle-stored-procedures-triggers-and-views-during-migration) | [How do you handle large joins, aggregations, and complex transformations efficiently in Spark?](#how-do-you-handle-large-joins-aggregations-and-complex-transformations-efficiently-in-spark)|
+| [**Data Migration & ETL**](#data-migration--etl)| [**Performance & Optimization**](#performance--optimization)| [**Incremental Migration & CDC**](#incremental-migration--cdc) | [**Data Quality & Validation**](#data-quality--validation)|
+|:---|:---|:---|:---|
+| [**Design a robust migration plan from Oracle to Delta Lake**](#how-do-you-design-a-robust-migration-plan-from-oracle-to-delta-lake-for-multi-terabyte-datasets)| [How do you partition and cluster Delta tables for large-scale performance optimization?](#how-do-you-partition-and-cluster-delta-tables-for-large-scale-performance-optimization)|[**Implement Change Data Capture (CDC) with GoldenGate or Oracle redo logs?**](#how-do-you-implement-change-data-capture-cdc-with-goldengate-or-oracle-redo-logs) | [Implement automated data quality checks and row-level validation post-migration](#how-do-you-implement-automated-data-quality-checks-and-row-level-validation-post-migration)|
+| [Map Oracle data types to Delta/Spark types](#how-do-you-map-oracle-data-types-to-deltaspark-types-while-handling-edge-cases) | [**Optimize legacy Oracle SQL queries for Spark and Delta Lake**?](#how-do-you-optimize-legacy-oracle-sql-queries-for-spark-and-delta-lake)| [Design incremental loads with minimal downtime](#how-do-you-design-incremental-loads-with-minimal-downtime) | [**Ensure checksums, aggregates, and sample data validation are accurate at scale**](#how-do-you-ensure-checksums-aggregates-and-sample-data-validation-are-accurate-at-scale) |
+| [**Migrate complex PL/SQL logic into PySpark or SQL transformations**](#how-do-you-migrate-and-refactor-complex-plsql-logic-into-pyspark-or-sql-transformations) | [How do you benchmark migration workloads, including ETL and analytics, to compare Oracle vs Spark?](#how-do-you-benchmark-migration-workloads-including-etl-and-analytics-to-compare-oracle-vs-spark)| [**Handle out-of-order updates or deletes in incremental replication**](#how-do-you-handle-out-of-order-updates-or-deletes-in-incremental-replication) | [Implement unit and integration testing for PySpark ETL pipelines?](#how-do-you-implement-unit-and-integration-testing-for-pyspark-etl-pipelines) |
+| [Handle stored procedures, triggers, and views during migration](#how-do-you-handle-stored-procedures-triggers-and-views-during-migration) | [How do you handle large joins, aggregations, and complex transformations efficiently in Spark?](#how-do-you-handle-large-joins-aggregations-and-complex-transformations-efficiently-in-spark) | [Monitor and validate CDC pipelines for consistency and latency](#how-do-you-monitor-and-validate-cdc-pipelines-for-consistency-and-latency) ||
 | [**Implement idempotent ETL jobs in Databricks to avoid duplicates**?](#how-do-you-implement-idempotent-etl-jobs-in-databricks-to-avoid-duplicates)
 | [Handle schema evolution, **SCD**, and historical data retention](#how-do-you-handle-schema-evolution-slowly-changing-dimensions-and-historical-data-retention-in-delta-lake)
 | [**Reconcile data mismatches and ensure end-to-end data quality**?](#how-do-you-reconcile-data-mismatches-and-ensure-end-to-end-data-quality)
 
-## [**Incremental Migration & CDC - Data Quality & Validation**](#incremental-migration--cdc---data-quality--validation)
-
-| [**Incremental Migration & CDC**](#incremental-migration--cdc) | [**Data Quality & Validation**](#data-quality--validation)|
-|:---|:---|
-| [**Implement Change Data Capture (CDC) with GoldenGate or Oracle redo logs?**](#how-do-you-implement-change-data-capture-cdc-with-goldengate-or-oracle-redo-logs) | [Implement automated data quality checks and row-level validation post-migration](#how-do-you-implement-automated-data-quality-checks-and-row-level-validation-post-migration)|
-| [Design incremental loads with minimal downtime](#how-do-you-design-incremental-loads-with-minimal-downtime) | [**Ensure checksums, aggregates, and sample data validation are accurate at scale**](#how-do-you-ensure-checksums-aggregates-and-sample-data-validation-are-accurate-at-scale) |
-| [**Handle out-of-order updates or deletes in incremental replication**](#how-do-you-handle-out-of-order-updates-or-deletes-in-incremental-replication) | [Implement unit and integration testing for PySpark ETL pipelines?](#how-do-you-implement-unit-and-integration-testing-for-pyspark-etl-pipelines)
-| [Monitor and validate CDC pipelines for consistency and latency](#how-do-you-monitor-and-validate-cdc-pipelines-for-consistency-and-latency) ||
+||
 
 ## [**Security & Compliance - Observability & Reliability**](#security--compliance---observability--reliability)
 
