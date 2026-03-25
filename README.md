@@ -1,4 +1,3 @@
-
 # [Master Data Checklist](#master-data-checklist)
 
 | [Interview Intro](#interview-intro) | [Data onboarding](#data-onboarding) | [**Cost Reduction**](#cost-reduction--finops-framework-28--discover-financial-services) | [**Reporting Latency Reduction (~35%)**](#reporting-latency-reduction-35)|
@@ -17,18 +16,10 @@
 
 - [What was the biggest failure you encountered, and how did you recover?](#what-was-the-biggest-failure-you-encountered-and-how-did-you-recover)
 
-- [What’s your approach to **performance tuning a slow PySpark job**? Give me a specific example and the metrics you improved. How did you transfer that knowledge to your offshore team?]
+-  [What’s your approach to performance tuning a slow PySpark job? Give me a specific example and the metrics you improved. How did you transfer that knowledge to your offshore team?](#whats-your-approach-to-performance-tuning-a-slow-pyspark-job-give-me-a-specific-example-and-the-metrics-you-improved-how-did-you-transfer-that-knowledge-to-your-offshore-team)
 
-
-- [Interview Intro](#interview-intro)
-  - [Data Architect](#data-architect)
-    - [Databricks Data Architect](#databricks-data-architect)
-    - [Snowflake Data Architect](#snowflake-data-architect)
-  - [Data Engineer](#data-engineer)
-    - [**Snowflake Data Engineer**](#snowflake-data-engineer)
-    - [**Databricks Data Engineer**](#databricks-data-engineer)
-  - [Data Engineering Manager](#data-engineering-manager)
-
+-  [Agile Delivery in Distributed Model](#agile-delivery-in-distributed-model)
+ 
 [[🔝 TOP 🔝]](#master-data-checklist)
 
 ## [Data Architect](#data-architect)
@@ -2145,7 +2136,7 @@ When implementing the Snowflake cost reduction and FinOps framework, I encounter
 
 [[🔝 TOP 🔝]](#master-data-checklist)
 
-### [What’s your approach to performance tuning a slow PySpark job? Give me a specific example and the metrics you improved. How did you transfer that knowledge to your offshore team?]
+### [What’s your approach to performance tuning a slow PySpark job? Give me a specific example and the metrics you improved. How did you transfer that knowledge to your offshore team?](#whats-your-approach-to-performance-tuning-a-slow-pyspark-job-give-me-a-specific-example-and-the-metrics-you-improved-how-did-you-transfer-that-knowledge-to-your-offshore-team)
 
 * **Story telling version** 
 
