@@ -4,7 +4,7 @@
 |:---|:---|:---|:---|
 | - [**Snowflake Data Architect**](#snowflake-data-architect)<br>- [Databricks Data Architect](#master-data-checklist-data-architect)| [**Reduce Data Onboarding to ~40%**](#how-did-you-reduce-data-onboarding-to-40)| [**Cost Reduction(~28%)**](#how-did-you-achieve-cost-reduction--finops-framework-28-in-discover-financial-services) | [**Reporting latency Reduction ~35%**](#how-did-you-achieve-reporting-latency-was-reduced-by-35-at-dfs)
 | - [**Snowflake Data Engineer**](#snowflake-data-engineer)<br>- [Databricks Data Engineer](#master-data-checklist-data-engineer)  | [**Biggest bottlenecks**](#what-were-the-biggest-bottlenecks-in-the-original-onboarding-process)  | [Challenges - Cost Reduction](#what-challenges-did-you-face-when-implementing-this-cost-reduction) | [challenges](#what-challenges-did-you-face-when-implementing-this-reporting-latency-reduction)
-| - [Data Engineering Manager](#data-engineering-manager) |[**Onboarding demand increases 10x - framework still hold?**](#what-happens-if-onboarding-demand-increases-10x-does-your-framework-still-hold)
+| - [Data Engineering Manager](#data-engineering-manager) |[**Onboarding demand increases 10x - framework still hold?**](#what-happens-if-onboarding-demand-increases-10x-does-your-framework-still-hold)||||
  
 
 |[**Architecture & Data Platform Design**](#architecture--data-platform-design) | [**Oracle → Databricks Migration**](#oracle--databricks-migration)|
